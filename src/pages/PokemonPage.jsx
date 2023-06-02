@@ -60,7 +60,7 @@ export const PokemonPage = () => {
 					</div>
 
 					<div className='container-stats'>
-						<h1>Estadísticas</h1>
+						<h1>Estatísticas</h1>
 						<div className='stats'>
 							<div className='stat-group'>
 								<span>Hp</span>

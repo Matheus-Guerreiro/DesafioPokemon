@@ -5,6 +5,7 @@ import { PokemonContext } from './PokemonContext';
 export const PokemonProvider = ({ children }) => {
 	const [allPokemons, setAllPokemons] = useState([]);
 	const [globalPokemons, setGlobalPokemons] = useState([]);
+	const [type, setType] = useState([]);
 	const [offset, setOffset] = useState(0);
 
 	const { valueSearch, onInputChange, onResetForm } = useForm({
